@@ -1,0 +1,69 @@
+# ─── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+ENV/
+
+# ─── Environment variables ────────────────────────────
+.env
+.env.local
+.env.production
+*.env
+
+# ─── FAISS index (large binary files) ────────────────
+data/faiss_index/index.bin
+data/faiss_index/id_map.json
+
+# ─── Database ─────────────────────────────────────────
+*.sql
+*.sqlite
+*.db
+
+# ─── Logs ─────────────────────────────────────────────
+*.log
+logs/
+
+# ─── OS files ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── VS Code ──────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─── PyCharm / JetBrains ──────────────────────────────
+.idea/
+*.iml
+
+# ─── React / Node ─────────────────────────────────────
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Sentence Transformers model cache ────────────────
+# (downloaded automatically, no need to commit)
+.cache/
+models/
+
+# ─── Jupyter Notebooks ────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Test / temp files ────────────────────────────────
+backend/services/test_*.py
+*.tmp
+*.bak
